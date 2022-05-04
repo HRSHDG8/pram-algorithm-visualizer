@@ -62,12 +62,12 @@ export const AlgoTabs: FC = () => {
         >
             <Tab label="Prefix Sum" {...a11yProps(0)}
                  style={{color: isLight ? (value === 0 ? 'rgba(0, 0, 0, 0.8)' : 'rgba(0, 0, 0, 0.6)') : 'inherit'}}/>
-            <Tab label="Item Two" {...a11yProps(1)}
-                 style={{color: isLight ? (value === 1 ? 'rgba(0, 0, 0, 0.8)' : 'rgba(0, 0, 0, 0.6)') : 'inherit'}}/>
-            <Tab label="Item Three" {...a11yProps(2)}
-                 style={{color: isLight ? (value === 2 ? 'rgba(0, 0, 0, 0.8)' : 'rgba(0, 0, 0, 0.6)') : 'inherit'}}/>
-            <Tab label="Item Four" {...a11yProps(3)}
-                 style={{color: isLight ? (value === 3 ? 'rgba(0, 0, 0, 0.8)' : 'rgba(0, 0, 0, 0.6)') : 'inherit'}}/>
+            {/*<Tab label="Item Two" {...a11yProps(1)}*/}
+            {/*     style={{color: isLight ? (value === 1 ? 'rgba(0, 0, 0, 0.8)' : 'rgba(0, 0, 0, 0.6)') : 'inherit'}}/>*/}
+            {/*<Tab label="Item Three" {...a11yProps(2)}*/}
+            {/*     style={{color: isLight ? (value === 2 ? 'rgba(0, 0, 0, 0.8)' : 'rgba(0, 0, 0, 0.6)') : 'inherit'}}/>*/}
+            {/*<Tab label="Item Four" {...a11yProps(3)}*/}
+            {/*     style={{color: isLight ? (value === 3 ? 'rgba(0, 0, 0, 0.8)' : 'rgba(0, 0, 0, 0.6)') : 'inherit'}}/>*/}
         </Tabs>
         <TabPanel value={value} index={0}>
             <PrefixSum/>
