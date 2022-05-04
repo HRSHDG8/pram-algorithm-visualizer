@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pram-algorithm-visualizer/static/css/main.32621753.css",
+    "main.js": "/pram-algorithm-visualizer/static/js/main.d7a26403.js",
+    "static/js/787.55d2fd91.chunk.js": "/pram-algorithm-visualizer/static/js/787.55d2fd91.chunk.js",
+    "index.html": "/pram-algorithm-visualizer/index.html",
+    "main.32621753.css.map": "/pram-algorithm-visualizer/static/css/main.32621753.css.map",
+    "main.d7a26403.js.map": "/pram-algorithm-visualizer/static/js/main.d7a26403.js.map",
+    "787.55d2fd91.chunk.js.map": "/pram-algorithm-visualizer/static/js/787.55d2fd91.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32621753.css",
+    "static/js/main.d7a26403.js"
+  ]
+}
